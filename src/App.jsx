@@ -6,52 +6,52 @@ function App() {
 	return (
 		<>
 			<div>
-				<nav class="navbar navbar-expand-lg bg-body-tertiary">
-					<div class="container-fluid">
+				<nav className="navbar navbar-expand-lg bg-body-tertiary">
+					<div className="container-fluid">
 						<a
-							class="navbar-brand"
+							className="navbar-brand"
 							href="#">
 							Navbar
 						</a>
 						<button
-							class="navbar-toggler"
+							className="navbar-toggler"
 							type="button"
 							data-bs-toggle="collapse"
 							data-bs-target="#navbarNav"
 							aria-controls="navbarNav"
 							aria-expanded="false"
 							aria-label="Toggle navigation">
-							<span class="navbar-toggler-icon"></span>
+							<span className="navbar-toggler-icon"></span>
 						</button>
 						<div
-							class="collapse navbar-collapse"
+							className="collapse navbar-collapse"
 							id="navbarNav">
-							<ul class="navbar-nav">
-								<li class="nav-item">
+							<ul className="navbar-nav">
+								<li className="nav-item">
 									<Link
-										class="nav-link active"
+										className="nav-link active"
 										aria-current="page"
 										to="/">
 										Home
 									</Link>
 								</li>
-								<li class="nav-item">
+								<li className="nav-item">
 									<Link
-										class="nav-link"
+										className="nav-link"
 										to="/posts">
 										Post
 									</Link>
 								</li>
-								<li class="nav-item">
+								<li className="nav-item">
 									<a
-										class="nav-link"
+										className="nav-link"
 										href="#">
 										Pricing
 									</a>
 								</li>
-								<li class="nav-item">
+								<li className="nav-item">
 									<a
-										class="nav-link disabled"
+										className="nav-link disabled"
 										aria-disabled="true">
 										Disabled
 									</a>
